@@ -53,6 +53,8 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 The Developement for this Mod has been made with MelonLoader which is also required to use this mod.
 
 ## How to Install
+> [!WARNING]
+> This Mod is only Available for the Game Version 0.1 known as the "Erenshor Demo"
 1. [Install MelonLoader](https://melonwiki.xyz/#/?id=automated-installation) 
 2. Download the latest .dll of the Mod in the [releases](https://github.com/Lenzork/Erenshor-All-GM-Mod/releases)
 3. Put the downloaded .dll into the created "Mods" folder from MelonLoader in the Erenshor Game Folder
