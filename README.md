@@ -12,10 +12,10 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 | Command                | Description                                                                           |
 |------------------------|---------------------------------------------------------------------------------------|
 | **/allitem**           | Shows a list of all items and their locations.                                         |
-| **/additem <index>**   | Adds an item to the inventory based on the specified index.                           |
-| **/cheater <num>**     | Sets a debug kit for the player.                                                      |
-| **/hpscale <value>**   | Sets the HP scaling factor for NPCs, active when changing zones.                      |
-| **/loadset <level>**   | Sets a SimPlayer to the specified level and corresponding equipment.                  |
+| **/additem {index}**   | Adds an item to the inventory based on the specified index.                           |
+| **/cheater {num}**     | Sets a debug kit for the player.                                                      |
+| **/hpscale {value}**   | Sets the HP scaling factor for NPCs, active when changing zones.                      |
+| **/loadset {level}**   | Sets a SimPlayer to the specified level and corresponding equipment.                  |
 | **/livenpc**           | Lists all living NPCs in the zone.                                                    |
 | **/levelup**           | Gives the current target character enough experience points to level up multiple times.|
 | **/simlocs**           | Reports on the current zone population.                                               |
@@ -30,7 +30,7 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 | **/preview**           | Activates demo mode, where save data is overwritten.                                  |
 | **/allsims**           | Lists all SimPlayers and their locations.                                             |
 | **/invisme**           | Toggles invisibility for the developer.                                               |
-| **/toscene <scene>**   | Safely switches to the specified scene.                                               |
+| **/toscene {scene}**   | Safely switches to the specified scene.                                               |
 | **/dosunny**           | Changes the weather to sunny.                                                         |
 | **/players**           | Lists all players in the current scene.                                               |
 | **/droneme**           | Toggles the drone camera on or off.                                                   |
@@ -38,10 +38,10 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 | **/keyring**           | Shows all keys the player possesses.                                                  |
 | **/spychar**           | Shows information about the current target (name, level, HP, defense, faction, resistances). |
 | **/nodechk**           | Lists all nodes in the current area.                                                  |
-| **/faction <value>**   | Changes the faction status of the current target by the specified value.              |
+| **/faction {value}**   | Changes the faction status of the current target by the specified value.              |
 | **/yousolo**           | Removes the current target from its group.                                            |
 | **/allgrps**           | Lists all SimPlayer groups and their members.                                         |
 | **/all pla**           | Lists all players in Erenshor.                                                        |
-| **/group <message>**   | Sends a message to the group members.                                                 |
-| **/shout <message>**   | Sends a message that can be heard by all players in the zone.                         |
-| **/whisper <player> <message>** | Sends a private message to another player.                                  |
+| **/group {message}**   | Sends a message to the group members.                                                 |
+| **/shout {message}**   | Sends a message that can be heard by all players in the zone.                         |
+| **/whisper {player} {message}** | Sends a private message to another player.                                  |
