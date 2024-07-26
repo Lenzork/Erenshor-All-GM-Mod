@@ -17,7 +17,7 @@
 mono_crash.*
 
 # Github
-.github/
+.github/*
 
 # Build results
 [Dd]ebug/
