@@ -45,3 +45,15 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 | **/group {message}**   | Sends a message to the group members.                                                 |
 | **/shout {message}**   | Sends a message that can be heard by all players in the zone.                         |
 | **/whisper {player} {message}** | Sends a private message to another player.                                  |
+
+## Made with MelonLoader
+<p align="center">
+  <img src="https://melonwiki.xyz/_media/logo.svg" height="20%" width="20%" />
+</p>
+The Developement for this Mod has been made with MelonLoader which is also required to use this mod.
+
+## How to Install
+1. [Install MelonLoader](https://melonwiki.xyz/#/?id=automated-installation) 
+2. Download the latest .dll of the Mod in the [releases](https://github.com/Lenzork/Erenshor-All-GM-Mod/releases)
+3. Put the downloaded .dll into the created "Mods" folder from MelonLoader in the Erenshor Game Folder
+4. Start the Game and Enjoy!
