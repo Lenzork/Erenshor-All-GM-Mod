@@ -11,9 +11,6 @@ This mod adds you to the **Dev**, **Wiki** & **Patreon** Lists which makes you a
 ## Command List
 | Command                | Description                                                                           |
 |------------------------|---------------------------------------------------------------------------------------|
-| **/allitem**           | Shows a list of all items and their locations.                                         |
-| **/additem {index}**   | Adds an item to the inventory based on the specified index.                           |
-| **/cheater {num}**     | Sets a debug kit for the player.                                                      |
 | **/hpscale {value}**   | Sets the HP scaling factor for NPCs, active when changing zones.                      |
 | **/loadset {level}**   | Sets a SimPlayer to the specified level and corresponding equipment.                  |
 | **/livenpc**           | Lists all living NPCs in the zone.                                                    |
