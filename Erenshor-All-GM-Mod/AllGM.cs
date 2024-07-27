@@ -7,27 +7,18 @@ using UnityEngine;
 using MelonLoader;
 using Steamworks;
 
-
 namespace Erenshor_All_GM_Mod
 {
     public class AllGM : MelonMod
     {
         private string steamPlayerName;
 
-        public override void OnInitializeMelon()
-        {
-            LoggerInstance.Msg("##########################################");
-            LoggerInstance.Msg("#       ERENSHOR DEMO ALL GM MOD         #");
-            LoggerInstance.Msg("##########################################");
-            LoggerInstance.Msg("Version 0.1.0 loaded!");
-        }
-
         public override void OnLateInitializeMelon()
         {
             // Fetch Players Steam Name
             steamPlayerName = SteamFriends.GetPersonaName().ToLower();
 
-            LoggerInstance.Msg($"Players Steam Name has been fetched {steamPlayerName}");
+            LoggerInstance.Msg($"Players Steam Name has been fetched: {steamPlayerName}");
         }
 
         public override void OnSceneWasInitialized(int buildIndex, string sceneName)
@@ -35,7 +26,7 @@ namespace Erenshor_All_GM_Mod
             if (sceneName != "LoadScene")
                 return;
 
-            LoggerInstance.Msg($"{sceneName}.{buildIndex} has been loaded!");
+            LoggerInstance.Msg($"{sceneName}[{buildIndex}] has been loaded!");
 
             if(GameData.GM.DemoBuild)
             {

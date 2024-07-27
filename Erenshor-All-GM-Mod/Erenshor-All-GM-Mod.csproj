@@ -56,6 +56,10 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>G:\Program Files\Steam\steamapps\common\Erenshor Demo\Erenshor_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Program Files\Steam\steamapps\common\Erenshor Demo\Erenshor_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>G:\Program Files\Steam\steamapps\common\Erenshor Demo\Erenshor_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
